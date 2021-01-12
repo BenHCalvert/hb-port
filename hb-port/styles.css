@@ -1,0 +1,79 @@
+/* nav bar */
+nav{    
+    font-size: 16px;
+    letter-spacing: .03em;
+    border-radius: 4px;
+    color: #777 !important;   
+}
+
+form{
+  font-family: 'Cutive Mono', monospace !important;
+}
+
+/* navbar link buttons */
+nav ul li a{
+    color:#777;
+    font-family: 'Cutive Mono', monospace;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+  }
+
+nav .brand-logo{
+    padding-left: 50px !important;
+    color: #777 !important;
+    font-family: 'Cutive Mono', monospace !important;
+}
+
+.nav-wrapper{
+    border-radius: 4px;
+}
+
+.page-footer {
+  margin-top: 15px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+/* class to remove shadows */
+.no-shadows {
+  box-shadow: none!important;
+}
+
+#subnav{
+  height: 15px !important;
+}
+
+#footer-text{
+  text-align: center;
+}
+
+@media only screen and (max-width: 520px) {
+  nav .brand-logo {
+    font-size: 1.3em !important;
+    padding-left: 0px !important;
+  }
+  /* sticky footer syles */
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  /* sticky footer syles */
+  main {
+    flex: 1 0 auto; 
+  }
+}  
+
+/* Footer Styles for larger screens */
+@media only screen and (min-width: 520px) {
+  /* Footer */
+footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color:#777;
+color: white;
+text-align: center;
+}
+}
